@@ -1,0 +1,6 @@
+unsloth
+streamlit 
+plotly 
+pandas 
+numpy 
+pillow
