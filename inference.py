@@ -26,8 +26,6 @@ class InferenceHandler:
         self.image_processor = self.model.vision_language_model.image_processor
 
     def predict(self, image, text_prompt):
-        if image is None or not text_prompt.strip():
-            return "Please provide both an image and a text prompt."
 
         messages = [{"role": "user", "content": f"<image>\n{text_prompt}"}]
         prompt = self.tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
