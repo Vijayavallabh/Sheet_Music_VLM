@@ -26,7 +26,7 @@ Our implementation follows a three-phase training approach:
 
 ```bash
 # Clone the repository
-git clone https://github.com/username/Knowledge_Distillation_VLM.git
+git clone https://github.com/Vijayavallabh/Sheet_Music_VLM.git
 cd Knowledge_Distillation_VLM
 
 # Create a virtual environment
@@ -119,7 +119,7 @@ Core dependencies include:
 
 ## License
 
-[Include your license information here]
+MIT License
 
 ## Acknowledgements
 
